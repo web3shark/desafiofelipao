@@ -1,2 +1,5 @@
+let nome = "Pedro"
+console.log("Meu nome é : " + nome)
 
-console.log("toma dadada"); 
+let idade = 25
+console.log("Minha idade é : " + idade)
