@@ -1,2 +1,2 @@
 
-let a = "dedede"
+console.log("toma dadada"); 
