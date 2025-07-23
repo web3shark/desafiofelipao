@@ -1,9 +1,9 @@
 
 let nomeHeroi = "Superman";
-let expHeroi = 1001; // Defina aqui o valor de experiência do herói
+let expHeroi = 0; // Defina aqui o valor de experiência do herói
 
 
-if (expHeroi <= 1000) {
+if (expHeroi != 0 && expHeroi <= 1000) {
     console.log(" O herói " + nomeHeroi + " está no nível Ferro");
 
 }
@@ -39,4 +39,6 @@ else if (expHeroi >= 9001 && expHeroi < 10001) {
 else if (expHeroi >= 10001) {
     console.log(" O herói " + nomeHeroi + " está no nível Radiante");
 }
-
+else if (expHeroi == 0) {
+    console.log(" O herói " + nomeHeroi + " ainda não possui experiência");
+}
